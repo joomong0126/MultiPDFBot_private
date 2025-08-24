@@ -1,0 +1,55 @@
+__pycache__/
+.env
+
+.devcontainer/
+
+# Mac
+.DS_Store
+
+# python venv
+etc/
+Include/
+Lib/
+Scripts/
+share/
+pyvenv.cfg
+
+# Vector Database and PDF files (보안상 로컬에서만 실행)
+chroma_db/
+*.pdf
+pdfs/
+embeddings/
+cache/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+
+# 추가 보안 설정
+# PDF 파일들 (회사 내부 전용)
+*.PDF
+*.pdf
+
+# 벡터 DB 폴더들
+vector_db/
+chroma_db/
+embeddings/
+faiss_index/
+
+# 임시 파일들
+temp/
+tmp/
+*.tmp
+*.temp
+
+# 로그 파일들
+*.log
+logs/
+
+# 환경 변수 파일
+.env.local
+.env.production
+.env.staging
